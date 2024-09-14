@@ -1,0 +1,109 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* FocusBlur.css */
+
+.container {
+  padding: 20px;
+  text-align: center;
+  background-color: #000; /* Fundo preto */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  transition: all 0.3s ease;
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHBhaXNhZ2V8ZW58MHx8fHwxNjEyOTgxOTk4&ixlib=rb-1.2.1&q=80&w=1080'); /* Imagem de paisagem */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Texto branco para contraste */
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+h2 {
+  color: #fff; /* Título branco */
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 14px 20px;
+  font-size: 16px;
+  border: 2px solid #00eeff;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+  color: #06edf5; /* Texto branco */
+}
+
+input[type="text"]::placeholder {
+  color: #ccc; /* Placeholder em cinza claro */
+}
+
+input[type="text"]:focus {
+  border-color: #00d6fc; /* Cor de foco mais vibrante (tomate) */
+  box-shadow: 0 0 10px rgba(11, 194, 185, 0.7);
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #47b5ff; /* Tomate (vibrante) para o botão */
+  color: white;
+  padding: 14px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #00eeff; /* Laranja avermelhado no hover */
+  transform: scale(1.05);
+}
+
+input[type="submit"]:active {
+  background-color: #39e0e6;
+  transform: scale(1);
+}
+
+.message {
+  margin-top: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #fff; /* Texto da mensagem em branco */
+}
+
+.key {
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: #ccc; /* Tecla pressionada em cinza claro */
+}
+
+input[type="text"] {
+  font-family: 'Arial', sans-serif;
+}
+
+.container, .key {
+  transition: all 0.3s ease-in-out;
+}
+
+
+
